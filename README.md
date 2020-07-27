@@ -10,7 +10,7 @@ It is about implementing virtual scrolling without using any library for that. I
 -   It must be able to display a list of 10k messages in less than 2 seconds (the current non-virtualized implementation just hangs forever).
 -   It must be able deal with items of dynamic height.
 -   It must type-check.
-
++
 ### Hints
 
 You should use virtualization techniques to get the desired performance: Only render as much messages as neccessary!
